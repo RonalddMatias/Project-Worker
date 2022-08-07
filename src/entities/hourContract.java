@@ -40,5 +40,8 @@ public class hourContract {
         this.hours = hours;
     }
 
-    
+    //Método que vai dizer a quantidade de horas do contrato.
+    public double totalValue() {
+        return valuePerHour * hours;
+    }
 }
