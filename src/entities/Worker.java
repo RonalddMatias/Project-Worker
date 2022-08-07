@@ -62,10 +62,18 @@ public class Worker {
         return contracts;
     }
 
-    public void setContracts(List<hourContract> contracts) {
-        this.contracts = contracts;
+
+    //Métodos do programa
+    public void addContract(hourContract contract) {
+        contracts.add(contract);
     }
 
+    // "contract" --> informado como argumento do método
+    public void removeContract(hourContract contract){
+        contracts.remove(contract);
+    }
+
+    
     
     
 }
