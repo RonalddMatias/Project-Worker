@@ -74,6 +74,7 @@ public class Worker {
         contracts.remove(contract);
     }
 
+    //Método com uma logistica diferente, pois é necessário visualizar o ano e mês para validar o contrato corretamente.
     public double income(int year, int month){
         double sum = baseSalary;
         Calendar cal = Calendar.getInstance();
